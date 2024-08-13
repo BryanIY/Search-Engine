@@ -1,0 +1,25 @@
+Please select your occupation
+Analyst Programmer
+Architect
+AWS
+Business Analyst
+Back End
+Computer Operator
+Computer Network and Systems Engineer
+Database Administrator
+Developer/Programmer
+DevOps Engineer
+Front End 
+ICT Project Manager
+ICT Quality Assurance Engineer
+ICT Security Specialist
+ICT Systems Test Engineer
+Multimedia Specialist
+Network Administrator
+Network Analyst
+Network Security
+Software and Applications Programmers
+Software Engineer
+Software Tester
+Systems Analyst
+Web Developer

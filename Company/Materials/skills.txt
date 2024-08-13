@@ -1,0 +1,29 @@
+Android
+Angular
+AWS
+C#
+C/C++
+CSS
+DevOps
+Go
+Golang
+HTML
+iOS
+Java
+JavaScript
+Machine Learning
+Microsoft Azure
+MLOps
+Node.js
+NoSQL
+Pascal
+PHP
+Python
+React
+Ruby on Ralls
+Rust
+SQL
+Swift
+TypeScript
+Vue.js
+Yaml
