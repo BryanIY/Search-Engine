@@ -1,0 +1,70 @@
+/*
+filename: csignup.css
+author: Bryan Indra Yanto
+created: 23/03/2023
+last modified: 23/03/2023
+*/
+
+/* set font style of all pages */
+* 
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+body
+{
+	background-color: white;
+}
+
+#upload_Container
+{
+	margin: 10% auto;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+#upload_Container form
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#upload_Container form input
+{
+	padding: 8px;
+	outline: none;
+	border: 1px solid lightblue;
+	margin-bottom: 8px;
+}
+
+#upload_Container form button
+{
+	padding: 8px;
+	outline: none;
+	background-color: lightblue;
+	border: none;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+#upload_Container form input[type="submit"]
+{
+	background-color: lightgray;
+	border: none;
+}
+
+#upload_Container form input[type="submit"]:hover
+{
+	background-color: white;
+	cursor: pointer;
+	border: 1px solid lightblue;
+}

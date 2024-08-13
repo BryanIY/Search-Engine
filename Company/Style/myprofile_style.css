@@ -1,0 +1,282 @@
+*{
+	box-sizing:border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	background-color: white;
+	color: black;
+	padding: 0 20px;
+}
+.logo img {
+    margin-top:10px;
+	height: 50px;
+}
+.user-info {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.user-info p {
+	margin: 0;
+	margin-right: 20px;
+}
+.notification, .settings {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+/*Top nav bar*/
+.topnav1 {
+	background-color: #0693E3;
+}
+.topnav1 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.topnav1 li {
+	margin-right: 20px;
+    display:inline-block;
+}
+.topnav1 li:last-child {
+	margin-right: 0;
+}
+.topnav1 a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+	text-decoration: none;
+    text-align:center;
+    font-size:23px;
+    font-weight:bold;
+}
+.topnav1 a:hover {
+	background-color: #ccc;
+    color:black;
+    text-transform:uppercase;
+}
+.topnav {
+	background-color: #046298;
+}
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.topnav li {
+	margin-right: 20px;
+    display:inline-block;
+}
+.topnav li:last-child {
+	margin-right: 0;
+}
+.topnav a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+	text-decoration: none;
+    text-align:center;
+    font-size:23px;
+    font-weight:bold;
+}
+.topnav a:hover {
+	background-color: #ccc;
+    color:black;
+    text-transform:uppercase;
+}
+/*main content*/
+
+/* Side menu*/
+.row{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    height:800px;
+}
+.sidenav{
+    -ms-flex:19%;
+    flex:19%;
+    background-color:#0877ff66;
+    padding:20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-shadow:0.5px 1px black;
+    font-size:large;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+    color: #fee505;
+    font-weight: bolder;
+}
+.sidenav a.active{
+    font-size:120%;
+    font-weight:bold;
+    color:black;
+}
+/**right column */
+.content{
+    -ms-flex:81%;
+    flex:81%;
+    padding:20px;
+}
+.content h1{
+	margin-left: 10px;
+	margin-bottom:0;
+
+}
+.content p{
+	margin-left: 10px;
+	margin-top:0;
+	padding-top:0;
+}
+/**my profile form*/
+legend
+{
+	text-align:center;
+	margin: auto;
+	font-weight: bold;
+	font-size: 25px;
+}
+fieldset
+{
+	margin: 50px;
+	padding: 20px;
+	border: 0;
+	border-top: 1px dotted #786ee466;
+}
+label
+{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+/*Cards*/
+/*dashboard cards*/
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	padding: 20px;
+	flex: 1 0 300px;
+	background-color: #cbe4f0;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	margin-left:50px;;
+	margin-right:auto;
+	justify-content: center;
+	align-items: center;
+}
+/* .card img {
+	width: 100%;
+	height: 400px;
+	margin-top:10px;
+	padding:20px;
+	object-fit:cover;
+} */
+/* .card h1 {
+	margin: auto;
+    margin-top:20px;
+	font-size: 24px;
+    text-align: center;
+}
+
+.card p {
+	margin: 10px 20px;
+	font-size: 18px;
+    text-align: center;
+} */
+
+div.container
+{
+	margin: 20px;
+}
+
+/* Style the "Update My Profile" button*/
+.updateProfile {
+	display: block;
+	border-radius: 50px;
+	background-color: #69308d;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 22px;
+	padding: 20px;
+	width: 30%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+  }
+  
+  .updateProfile span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+
+  .updateProfile span:after {
+	content: '\00bb';
+	position: absolute;
+
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+
+  .updateProfile:hover span {
+	padding-right: 25px;
+	text-transform:uppercase;
+  }
+  
+.updateProfile:hover span:after {
+	opacity: 1;
+	right: 0;
+  }  
+/*logout button*/
+.logout {
+	border: none; 
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.logout:hover{
+	color:blueviolet;
+	font-size:20px;
+	text-transform: uppercase;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {   
+		flex-direction: column;
+	}
+	}
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+	}

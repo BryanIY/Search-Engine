@@ -1,0 +1,225 @@
+*{
+	box-sizing:border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	background-color: white;
+	color: black;
+	padding: 0 20px;
+}
+.logo img {
+    margin-top:10px;
+	height: 50px;
+}
+.user-info {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.user-info p {
+	margin: 0;
+	margin-right: 20px;
+}
+.notification, .settings {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+/*Top nav bar*/
+.topnav {
+	background-color:#0693E3;
+}
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.topnav li {
+	margin-right: 20px;
+    display:inline-block;
+}
+.topnav li:last-child {
+	margin-right: 0;
+}
+.topnav a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+	text-decoration: none;
+    text-align:center;
+    font-size:23px;
+    font-weight:bold;
+}
+.topnav a:hover {
+	background-color: #ccc;
+    color:black;
+    text-transform:uppercase;
+}
+/*main content*/
+
+/* Side menu*/
+.row{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    height:800px;
+}
+.sidenav{
+    -ms-flex:19%;
+    flex:19%;
+    background-color:#0877ff66;
+    padding:20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    text-shadow:0.5px 1px black;
+    font-size:large;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+    color: #fee505;
+    font-weight: bolder;
+}
+.sidenav a.active{
+    font-size:120%;
+    font-weight:bold;
+    color:black;
+}
+.sidenav p{
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+.sidenav input{
+    margin-top: -20px;
+    width: 200px;
+	height: 40px;
+	margin-bottom: 40px;
+}
+.btn{
+	background-color: #61CE70;
+	color: white;
+}
+/*Content */
+.content{
+    -ms-flex:81%;
+    flex:81%;
+    padding:20px;
+}
+
+.main{
+	max-width: 1500px;
+	width: 95%;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.card{
+	text-align: center;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	border: 1px solid white;
+	margin-top: auto;
+}
+
+.acceptreject div
+{
+	text-align: center;
+	margin: auto;
+}
+
+.acceptreject input:nth-child(1)
+{
+	width: 200px;
+	border: 2px solid #0080FF;
+	border-radius: 5px;
+	padding: 2px;
+	margin-bottom:20px;
+	color: white;
+	background-color:#0080FF;
+}
+
+.image img
+{
+	align-items: center;
+	width: 150px;
+	height: 150px;
+}
+.caption a
+{
+	font-size: 30px;
+	color: #9DA8AE;
+	text-decoration: none;
+}
+.aa
+{
+	font-weight: bold;
+}
+.caption p:nth-child(1)
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #9DA8AE;
+}
+.caption p:nth-child(2)
+{
+	font-size: 25px;
+	color: #6EC1E4;
+}
+.caption p:nth-child(3)
+{
+	font-size: 20px;
+	color: #6EC1E4;
+}
+.caption p:nth-child(4)
+{
+	font-size: 20px;
+	color: #6EC1E4;
+}
+.caption p:nth-child(5)
+{
+	font-size: 20px;
+	color: #6EC1E4;
+}
+.caption p:nth-child(6)
+{
+	font-size: 20px;
+	color: #6EC1E4;
+}
+
+.image1 img
+{
+	width: 450px;
+	height: 250px;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {   
+		flex-direction: column;
+	}
+	}
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+	}

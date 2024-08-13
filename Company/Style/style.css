@@ -1,0 +1,131 @@
+/*
+filename: homestyle.css
+author: Bryan Indra Yanto
+created: 17/10/2021
+last modified: 17/10/2021
+description: This is the home stylesheet of Assignment1
+*/
+
+/* set font style of all pages */
+* 
+{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* resize the logo.png image */
+/*.logo 
+{
+  width: 250px;
+  height: 270px;
+}*/
+
+/* resize the emailLogo.png image */
+/*.email1
+{
+  width: 25px;
+  height: auto;
+}*/
+
+
+/* set background image of homepage.html page */
+/*body.home
+{
+  background-image: url(../img/p1.jpg);
+  background-size: cover;
+}*/
+  
+  /* set slogan color in index.html */
+h1
+{
+	color: black;
+}
+
+/*h2
+{
+	color: white;
+}*/
+
+
+/* set style of slogan heading 1 */
+h1.slogan 
+{
+  margin: 0px 0px 100px 0px;
+  Text-align: center;
+  font-size: 400%;
+  font-family: 'Ephesis', cursive;
+  font-weight: normal;
+  text-shadow: 0 1px 0 black;
+}
+
+/* set style of slogan heading 2 */
+h2.slogan1 
+{
+  margin: 0 0 0 0;
+  Text-align: center;
+  font-size: 200%;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 0 1px 0 black;
+} 
+
+/* set navigation border */
+.wrapper
+{
+	text-align: center;
+}
+
+.nav1
+{
+	height: 80px;
+}
+
+/* set navigation border */
+
+ul
+{
+	padding:0.2em 0.6em;
+	list-style: none;
+	background: rgba(0,0,0,0);
+	font-size: 200%;
+}
+
+li
+{
+	margin-top: 30px;
+	display: inline-block;
+	border: 4px solid #ccc;
+	box-sizing: border-box;
+	transition: 1s;
+}
+
+li a
+{
+	text-decoration: none;
+	color:black;
+	font-family: 'Montserrat';
+	font-weight: lighter;
+	padding: 25px 30px;
+}
+
+/* sign-up form */
+input[type=text], input[type=password], input[type=email], select, textarea 
+{
+  padding: 5px 20px;
+  margin: 8px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* footer is in the middle */
+footer
+{
+	text-align: center;
+	font-family: 'Lato';
+	color: black;
+}
+
