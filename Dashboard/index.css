@@ -1,0 +1,313 @@
+/*
+filename: index.css
+author: Bryan Indra Yanto
+created: 17/03/203
+last modified: 23/03/203
+*/
+
+/* set font style of all pages */
+* 
+{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section
+{
+	width: 100%;
+	height: 100px;
+	background-color: #0693E3;
+}
+
+.section1 div
+{
+	display: flex;
+	gap: 40px;
+	background-color: #0693E3;
+	width: 200px;
+	margin-left: 35px;
+	text-align: center; 
+	line-height: 40px;
+	border-radius: 5px;
+}
+
+.section1 a
+{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+.section3
+{
+	width: 100%;
+	height: 550px;
+	background-color: #0693E3;
+}
+.section8
+{
+	width: 100%;
+	height: 350px;
+	background-color: #6E7BFF;
+}
+.section9
+{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}
+.user-info {
+	margin-right: 200px;
+	text-align: right;
+}
+
+nav
+{
+	text-align: center;
+	height: 100px;
+}
+
+/* set navigation border */
+
+ul
+{
+	padding:0.2em 0.6em;
+	list-style: none;
+	background: rgba(0,0,0,0);
+	font-size: 200%;
+}
+
+li
+{
+	
+	margin-top: 30px;
+	background: white;
+	display: inline-block;
+	border: 2px solid white;
+	box-sizing: border-box;
+	transition: 1s;
+	border-radius: 5px;
+	font-family: 'Montserrat';
+	font-size: 25px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: #6E7BFF;
+	font-family: 'Montserrat';
+	font-weight: lighter;
+	padding: 25px 30px;
+}
+
+/* Setting the image on the left */
+.image-section
+{
+	float: left;
+	width: 20%;
+}
+
+/* resize image on the right */
+.image-section img
+{
+	width: 100%;
+	height: auto;
+}
+.image-section2 img
+{
+	width: 100%;
+	height: 70%;
+}
+.image-section3 img
+{
+	width: 100%;
+	height: 68%;
+}
+.image-section4 img
+{
+	float: right;
+	width: 25%;
+}
+.image-section5 img
+{
+	float: left;
+	width: 20px;
+	margin: 5px;
+}
+.image-section6 img
+{
+	float: left;
+	width: 28%;
+}
+.image-section7 img
+{
+	float: right;
+	width: 28%;
+}
+.image-section8 img
+{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:-16px;
+}
+
+/*Resize the font size p1*/
+.paragraph1
+{
+	font-size: 40px;
+	font-family: 'Montserrat';
+}
+.paragraph2
+{
+	font-size: 20px;
+	font-family: 'Montserrat';
+}
+.paragraph3
+{
+	font-size: 40px;
+	color:white;
+	font-family: 'Montserrat';
+	margin-left: 20px;
+}
+.paragraph4
+{
+	font-size: 20px;
+	color:white;
+	font-family: 'Montserrat';
+	margin-left: 20px;
+}
+.paragraph5
+{
+	font-size: 20px;
+	color:white;
+	font-family: 'Montserrat';
+}
+.paragraph6
+{
+	font-size: 30px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph7
+{
+	font-size: 20px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph8
+{
+	font-size: 25px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph9
+{
+	font-size: 20px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph10
+{
+	font-size: 30px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph11
+{
+	font-size: 20px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph12
+{
+	font-size: 25px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph13
+{
+	font-size: 20px;
+	color:black;
+	font-family: 'Montserrat';
+}
+.paragraph14
+{
+	font-size: 40px;
+	color:white;
+	font-family: 'Montserrat';
+	margin-left: 20px;
+}
+
+
+/* makes boxes on each container */
+.container
+{
+	display: grid;
+	grid-gap:5px;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 4rem;
+	grid-gap: 30px;
+	width: 90%;
+}
+.container2
+{
+	width: 70%;
+	height: 200px;
+	
+}
+.container3
+{
+	width: 70%;
+	height: 200px;
+	float:right;
+}
+
+
+/*create box*/
+.item
+{
+	border: 1px solid white;
+	text-align: center;
+	padding: 4rem;
+	line-height: 1.5;
+	background-color: black;
+}
+
+/*Button*/
+.button
+{
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	line-height: 10px;
+	background-color: #0693E3;
+	font-size: 20px;
+	color:white;
+}
+
+.flex1, .flex2
+{
+	display: flex;
+}
+.flex1 > div
+{
+	color: white;
+	width: 100%;
+	margin: 10px;
+	margin-top: 80px;
+	text-align: center; 
+	padding-left: 10px;
+	font-size: 30px;
+}
+
+.flex2 > div
+{
+	color: white;
+	width: 100%;
+	margin: 10px;
+	text-align: center; 
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 30px;
+}
