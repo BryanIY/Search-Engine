@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	background-color: white;
+	color: black;
+	padding: 0 20px;
+}
+.logo img {
+    margin-top:10px;
+	height: 50px;
+}
+.user-info {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.user-info p {
+	margin: 0;
+	margin-right: 20px;
+}
+.notification, .settings {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+/*Top nav bar*/
+.topnav {
+	background-color: #786ee4;
+}
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.topnav li {
+	margin-right: 20px;
+    display:inline-block;
+}
+.topnav li:last-child {
+	margin-right: 0;
+}
+.topnav a {
+	display: block;
+	padding: 25px 20px;
+	color: white;
+	text-decoration: none;
+    text-align:center;
+    font-size:23px;
+    font-weight:bold;
+}
+.topnav a:hover {
+	background-color: #ccc;
+    color:black;
+    text-transform:uppercase;
+}
+/*main content*/
+main {
+	padding: 20px;
+}
+.dash {
+	width: 90%;
+	color: black;
+	position: relative;
+	margin-top: 100px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.dash h1 {
+	font-size: 50px;
+    margin-top:50px;
+	text-shadow: 2px 2px 2px grey;
+}
+/*dashboard cards*/
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	margin: 20px;
+	flex: 1 0 300px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.card img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.card a {
+    text-decoration: none;
+    color:black;
+}
+.card a:hover {
+    text-decoration: none;
+    color:purple;
+}
+.card h2 {
+	margin: auto;
+    margin-top:20px;
+	font-size: 24px;
+    text-align: center;
+}
+.card h2:hover {
+	margin: auto;
+    margin-top:20px;
+	font-size: 26px;
+    text-align: center;
+}
+.card p {
+	margin: 10px 20px;
+	font-size: 18px;
+    text-align: center;
+}
+
+/*logout button*/
+.logout {
+	border: none; 
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.logout:hover{
+	color:blueviolet;
+	font-size:20px;
+	text-transform: uppercase;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {   
+		flex-direction: column;
+	}
+	}
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+	}
